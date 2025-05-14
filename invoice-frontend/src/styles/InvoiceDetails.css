@@ -1,0 +1,100 @@
+.invoice-details {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.invoice-details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+
+.close-button:hover {
+  color: #333;
+}
+
+.invoice-status-section {
+  margin-bottom: 20px;
+}
+
+.status-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.status-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.status-button {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.status-button.active {
+  background: #4CAF50;
+  color: white;
+  border-color: #4CAF50;
+}
+
+.status-button:hover {
+  background: #f5f5f5;
+}
+
+.status-button.active:hover {
+  background: #45a049;
+}
+
+.invoice-info {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+
+.invoice-info p {
+  margin: 8px 0;
+}
+
+.invoice-items table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.invoice-items th,
+.invoice-items td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.invoice-items th {
+  background: #f5f5f5;
+  font-weight: 600;
+}
+
+.invoice-items tr:last-child td {
+  border-bottom: none;
+} 
